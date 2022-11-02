@@ -5,7 +5,7 @@ const Stats = () => {
             <section className='d-flex align-items-center mb-5'>
                 <div className='container-fluid' >
                     <div className='row'>
-                        <div class="col-10 mx-auto">
+                        <div className="col-10 mx-auto">
                             <div class="row">
                                 <div className='stats col-md-6 pt-5 d-flex justify-content-center flex-column pb-5'>
                                 <div className='btn-hero'>
