@@ -3,8 +3,15 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import web from "../images/ClapingoLogo.png";
+import {useNavigate} from 'react-router-dom';
+
 
 const Navbar = () => {
+    const navigate = useNavigate();   
+
+    const navigateToLogin = () => {
+        navigate('/login');
+      };
     return (
         <>
         <div className='container-fluid header' >
@@ -33,7 +40,7 @@ const Navbar = () => {
                             
                         </ul>
                         <div className='d-grid gap-2 d-md-flex justify-content-md-center'>
-                        <button class="btn-login" type="submit">
+                        <button className="btn-login" type="submit" onClick={navigateToLogin}>
                         <FontAwesomeIcon icon={faUser} /> Login</button>
                         </div>
                     </div>
