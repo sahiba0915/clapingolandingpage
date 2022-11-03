@@ -183,16 +183,11 @@ top: 2212px;
 }
 
 .form-section {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    font-family:  'Open Sans', sans-serif;
 }
 
 .form-container {

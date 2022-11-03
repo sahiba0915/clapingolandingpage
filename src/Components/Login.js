@@ -7,6 +7,7 @@ const Login = () => {
 
     const navigateToHome = () => {
         navigate('/');
+        alert("Logged In")
     };
 
     const [username, setUsername] = useState(() => {
@@ -18,8 +19,6 @@ const Login = () => {
         const saved = localStorage.getItem("username");
     const initialValue = JSON.parse(saved);
     return initialValue || "";});
-
-
 
     useEffect(() => {
         // storing input name
@@ -55,7 +54,7 @@ const Login = () => {
                                 value={password}
                                 onChange={({ target }) => setPassword(target.value)} />
                         </div>
-                        <button onClick={navigateToHome} >Submit</button>
+                        <button onClick={navigateToHome}>Submit</button>
                     </form>
                 </div>
             </div>
