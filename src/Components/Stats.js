@@ -7,7 +7,7 @@ const Stats = () => {
                     <div className='row'>
                         <div className="col-10">
                             <div class="row">
-                                <div className='stats col-md-6 pt-5 d-flex justify-content-center flex-column pb-5'>
+                                <div className='stats col-md-7 pt-5 d-flex justify-content-center flex-column pb-5'>
                                 <div className='btn-hero'>
                                             <div className="stats-card">
                                                 <h1>50k <strong>+</strong></h1>
@@ -30,7 +30,7 @@ const Stats = () => {
                                             </div>
                                 </div>
                                 </div>
-                                <div className='col-md-6 pt-5 mt-5'>
+                                <div className='col-md-5 pt-5 ps-4'>
                                     <strong>Book a trial</strong>
                                     <h1>Start your english speaking journey today!</h1>
                                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque pellentesque praesent vitae sit sagittis venenatis.</small>
