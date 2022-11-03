@@ -12,7 +12,7 @@ const Hero = () => {
                         <div class="col-10 mx-auto">
                             <div class="row">
                                 <div className='col-md-6 pt-5 d-flex justify-content-center flex-column'>
-                                    <h1>Hone your english speaking skills over <br />
+                                    <h1>Hone your english speaking skills over
                                         <strong> one-to-one </strong>video call</h1>
                                     <small className='my-3'>Practice english conversation with excellent communuicators
                                         <br />across the country and speak like a PRO 😎.</small>

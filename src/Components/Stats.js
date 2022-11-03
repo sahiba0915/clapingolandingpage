@@ -2,7 +2,7 @@ import React from 'react';
 const Stats = () => {
     return (
         <>
-            <section className='d-flex align-items-center mb-5'>
+            <section className='stats-section d-flex align-items-center mb-5'>
                 <div className='container-fluid' >
                     <div className='row'>
                         <div className="col-10">
@@ -11,7 +11,7 @@ const Stats = () => {
                                 <div className='btn-hero'>
                                             <div className="stats-card">
                                                 <h1>50k <strong>+</strong></h1>
-                                                <small className='me-4'>Mobile Downloads</small>
+                                                <small>Mobile Downloads</small>
                                             </div>
                                             <div className="stats-card">
                                                 <h1>80k <strong>+</strong></h1>
@@ -30,7 +30,7 @@ const Stats = () => {
                                             </div>
                                 </div>
                                 </div>
-                                <div className='col-md-5 pt-5 ps-4'>
+                                <div className='col-md-5 ps-4'>
                                     <strong>Book a trial</strong>
                                     <h1>Start your english speaking journey today!</h1>
                                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque pellentesque praesent vitae sit sagittis venenatis.</small>
