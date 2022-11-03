@@ -30,9 +30,12 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="#">Kids</NavLink>
                             </li>
+                            
                         </ul>
+                        <div className='d-grid gap-2 d-md-flex justify-content-md-center'>
                         <button class="btn-login" type="submit">
                         <FontAwesomeIcon icon={faUser} /> Login</button>
+                        </div>
                     </div>
                 </div>
             </nav>

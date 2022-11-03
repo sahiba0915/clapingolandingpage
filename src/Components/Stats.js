@@ -36,7 +36,7 @@ const Stats = () => {
                                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque pellentesque praesent vitae sit sagittis venenatis.</small>
 
                                     <div className='btn-hero mt-3'>
-                                        <a href="" className="btn-book">Book a trial</a>
+                                        <button className="btn-book">Book a trial</button>
                                     </div>
                                 </div>
                             </div>
